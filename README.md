@@ -3,8 +3,10 @@ Simple and configurable PowerShell script for creating automatic save file backu
 
 ## Installation & Use
 Open the script file (`backup-souls.ps1`) in any text editor and set paths for your save files and for your desired backup folder. Refer to **Configuration** section for details.
-Then simply run the script in PowerShell, either by running the file directly (_Run with PowerShell_) or from Windows Terminal by typing in  `./backup-souls.ps1`.
-If you want to run the script more easily, you can create a shortcut for it and edit the **Target** field in properties.  Append the start of it with `powershell.exe -ExecutionPolicy Bypass -File`. So it looks like this: `powershell.exe -ExecutionPolicy Bypass -File <PATH_TO_YOUR_SCRIPT>`. Now you can just run the shortcut and it will directly run the script in PowerShell.
+Then simply run the script in PowerShell, either by running the file directly _(Run with PowerShell)_ or from Windows Terminal by typing in  `./backup-souls.ps1`.
+
+If you want to run the script more easily, you can create a shortcut for it and edit the **Target** field in properties.
+Append the start of it with `powershell.exe -ExecutionPolicy Bypass -File`. So it looks like this: `powershell.exe -ExecutionPolicy Bypass -File <PATH_TO_YOUR_SCRIPT>`. Now you can just run the shortcut and it will directly run the script in PowerShell.
 
 ## Configuration
  - `$BackupDirectory` - Path to your desired backup folder location. This is where your backups will be saved, separated in folders for each game. Replace `<DESIRED_BACKUP_PATH>` with the path to your backup folder location (folder will be created in case it doesn't exist).
