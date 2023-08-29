@@ -38,6 +38,12 @@ $Games = @(
 		Process = 'EldenRing'
 		SaveDirectory = 'C:\Users\<USERNAME>\AppData\Roaming\EldenRing\<PROFILE_ID>'
 		SaveFileName = 'ER0000.sl2'
+	},
+	[PSCustomObject]@{
+		Name = 'Armored Core VI'
+		Process = 'armoredcore6'
+		SaveDirectory = 'C:\Users\<USERNAME>\AppData\Roaming\ArmoredCore6\<PROFILE_ID>'
+		SaveFileName = 'AC60000.sl2'
 	}
 )
 
